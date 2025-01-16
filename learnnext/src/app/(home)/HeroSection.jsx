@@ -7,6 +7,7 @@ import Image from 'next/image';
 const HeroSection = () => {
     return (
         <div className="relative h-screen ">
+            <div className="absolute inset-0 bg-black/40 z-10"></div>
             <Image
                 src={cover}
                 alt="cover"
