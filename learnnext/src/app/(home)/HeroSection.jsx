@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import cover from '../../../public/cover.webp'; // Ensure the path to the image is correct
 import locationIcon from "../../../public/location.svg";
-import usersIcon from "../../../public/users.svg";
+import publicIcon from "../../../public/public-service.svg";
 import calendarIcon from "../../../public/calendar.svg";
 import daynightIcon from "../../../public/daynight.svg";
 import Image from 'next/image';
@@ -147,7 +147,57 @@ const HeroSection = () => {
                 </div>
             </section>
 
+            <section className='my-4'>
+                <h1 className='text-center text-2xl my-10'>What We offer</h1>
+                <div className='flex justify-center gap-10'>
 
+                    <div className='flex flex-col items-center'>
+                        <div className="w-[152px] h-[152px] border-2 border-dashed border-red-500 p-6 rounded-full items-center">
+                            <Image src={publicIcon} alt="cover" className="flex justify-center w-[100px] h-[100px] object-cover rounded-none" />
+                        </div>
+                        <div className="flex flex-col items-center p-3 gap-y-2">
+                            <h3 className="text-2xl font-semibold leading-tight text-center">
+                                Personalized <br /> Itineraries
+                            </h3>
+                            <p className='text-sm text-center '>Crafted just for you with attention to <br /> your needs and interests.</p>
+                        </div>
+                    </div>
+                    <div className='flex flex-col items-center'>
+                        <div className="w-[152px] h-[152px] border-2 border-dashed border-red-500 p-6 rounded-full items-center">
+                            <Image src={publicIcon} alt="cover" className="flex justify-center w-[100px] h-[100px] object-cover rounded-none" />
+                        </div>
+                        <div className="flex flex-col items-center p-3 gap-y-2">
+                            <h3 className="text-2xl font-semibold leading-tight text-center">
+                                Personalized <br /> Itineraries
+                            </h3>
+                            <p className='text-sm text-center '>Crafted just for you with attention to <br /> your needs and interests.</p>
+                        </div>
+                    </div><div className='flex flex-col items-center'>
+                        <div className="w-[152px] h-[152px] border-2 border-dashed border-red-500 p-6 rounded-full items-center">
+                            <Image src={publicIcon} alt="cover" className="flex justify-center w-[100px] h-[100px] object-cover rounded-none" />
+                        </div>
+                        <div className="flex flex-col items-center p-3 gap-y-2">
+                            <h3 className="text-2xl font-semibold leading-tight text-center">
+                                Personalized <br /> Itineraries
+                            </h3>
+                            <p className='text-sm text-center '>Crafted just for you with attention to <br /> your needs and interests.</p>
+                        </div>
+                    </div><div className='flex flex-col items-center'>
+                        <div className="w-[152px] h-[152px] border-2 border-dashed border-red-500 p-6 rounded-full items-center">
+                            <Image src={publicIcon} alt="cover" className="flex justify-center w-[100px] h-[100px] object-cover rounded-none" />
+                        </div>
+                        <div className="flex flex-col items-center p-3 gap-y-2">
+                            <h3 className="text-2xl font-semibold leading-tight text-center">
+                                Personalized <br /> Itineraries
+                            </h3>
+                            <p className='text-sm text-center '>Crafted just for you with attention to <br /> your needs and interests.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </section>
 
         </>
     );
